@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nayan Jain | AI / ML Student</title>
+<meta name="description" content="Portfolio of Nayan Jain, a B.Tech Computer Science student building AI/ML projects such as Trust-Score and AdaptiRAG.">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#home" data-go="home" aria-label="Nayan Jain, home">
+      <span class="logo" aria-hidden="true">NJ</span>
+      <span class="who"><span>Nayan</span><span>Jain</span></span>
+    </a>
+    <nav class="menu" aria-label="Sections">
+      <a href="#projects" data-go="projects">Projects</a>
+      <a href="#about" data-go="about">About</a>
+      <a href="#skills" data-go="skills">Skills</a>
+      <a href="#experience" data-go="experience">Experience</a>
+      <a href="#education" data-go="education">Education</a>
+      <a href="#contact" data-go="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ HOME ============ -->
+  <section class="view" data-view="home">
+    <div class="hero">
+      <span class="chip-live"><i aria-hidden="true"></i>AI / ML student &middot; Open to internships</span>
+      <h1 class="headline">Nayan <span>Jain</span></h1>
+      <div class="intro">
+        <p>B.Tech Computer Science student at Medicaps University, Indore, building AI systems that catch fake product reviews.</p>
+        <p>I work with Python, NLP and retrieval systems, and I'm looking for an AI/ML internship where I can ship real features.</p>
+        <a class="link-cta" href="#contact" data-go="contact">Get in touch &rarr;</a>
+      </div>
+
+      <div class="stage">
+        <div class="demo" aria-label="Sample Trust-Score card showing a product trust score and review verdicts">
+          <div class="demo-top"><b>Trust-Score</b><em>Sample</em></div>
+          <div class="gauge">
+            <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="track" cx="50" cy="50" r="40"/><circle class="val" cx="50" cy="50" r="40"/></svg>
+            <div class="num">87<small>of 100</small></div>
+          </div>
+          <div class="rv"><q>Zip broke after two weeks.</q><b>Genuine</b></div>
+          <div class="rv"><q>BEST EVER!!! BUY NOW!!!</q><b class="bad">Suspicious</b></div>
+          <div class="rv"><q>Fits well, took four days.</q><b>Genuine</b></div>
+          <div class="demo-note">Illustrative example, not real model output</div>
+        </div>
+        <a class="sticker s-proj" href="#projects" data-go="projects">Projects<small>3 builds</small></a>
+        <a class="sticker s-about" href="#about" data-go="about">About me</a>
+        <a class="sticker s-skills" href="#skills" data-go="skills">Skills</a>
+        <a class="sticker s-edu" href="#education" data-go="education">Education</a>
+        <a class="sticker s-contact" href="#contact" data-go="contact">Contact &rarr;</a>
+        <a class="sticker s-exp" href="#experience" data-go="experience" aria-label="Experience: AICTE AI/ML internship, grade O">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <defs><path id="ring" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0"/></defs>
+            <text><textPath href="#ring" textLength="228" lengthAdjust="spacing">Experience &#8226; AICTE internship &#8226; Grade O &#8226;</textPath></text>
+          </svg>
+          <span class="core" aria-hidden="true">&#8599;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="view" data-view="about" hidden>
+    <div class="page-head" style="--c: var(--yellow)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>About</span></div><h1>About</h1><p>A short introduction to my background and what I'm working toward.</p><span class="pin">Hello</span></div></div>
+    <div class="body">
+      <div class="cols">
+        <div class="prose">
+          <p>I turn messy real-world data into tools people can use.</p>
+          <p>I'm a Computer Science student focused on artificial intelligence and machine learning. My main project, Trust-Score, detects fake and deceptive reviews on Amazon, Flipkart and Myntra. It combines natural language processing with behavioral signals, and ships as a Flask web app and a browser extension so shoppers can check reviews while they browse.</p>
+          <p>I also build retrieval-augmented generation systems. AdaptiRAG blends vector search with a knowledge graph and routes each question to the right retrieval path.</p>
+          <p>I completed an eight-week AI/ML virtual internship under the AICTE and EduSkills programme with an Outstanding grade. I'm now looking for an internship where I can contribute to real products and learn from an engineering team.</p>
+        </div>
+        <aside class="panel">
+          <dl>
+            <div><dt>Location</dt><dd>Indore, Madhya Pradesh</dd></div>
+            <div><dt>Degree</dt><dd>B.Tech in Computer Science, Medicaps University</dd></div>
+            <div><dt>Graduating</dt><dd>2027</dd></div>
+            <div><dt>Interests</dt><dd>Machine learning, NLP, retrieval systems</dd></div>
+            <div><dt>Looking for</dt><dd>AI / ML internship</dd></div>
+          </dl>
+        </aside>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="view" data-view="projects" hidden>
+    <div class="page-head" style="--c: var(--teal)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>Projects</span></div><h1>Projects</h1><p>Machine learning and retrieval systems, from a first classifier to a full web app and browser extension.</p><span class="pin">3 builds</span></div></div>
+    <div class="body">
+      <div>
+        <article class="project" style="--c: var(--teal)">
+          <div class="p-top"><span class="status">Flagship</span><span class="when">2026 &ndash; present</span></div>
+          <h2>Trust-Score</h2>
+          <p class="lead">An AI-powered system that detects fake and deceptive product reviews across Indian e-commerce platforms. It is the production-oriented evolution of my Fake Review Detection project.</p>
+          <div class="flow" aria-label="Pipeline"><span class="step">Scrape reviews</span><i>&rarr;</i><span class="step">Extract features</span><i>&rarr;</i><span class="step">Classify</span><i>&rarr;</i><span class="step">Trust-score dashboard</span></div>
+          <div class="p-grid">
+            <div>
+              <h3>What it does</h3>
+              <ul class="ticks">
+                <li>Classifies each review as genuine or deceptive and aggregates a trust score per product.</li>
+                <li>Flask web app with a real-time dashboard, charts and per-review classification.</li>
+                <li>Browser extension with popup and content-script scrapers for Amazon, Flipkart and Myntra.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Signals used</h3>
+              <ul class="ticks">
+                <li>Word and character TF-IDF vectorization.</li>
+                <li>Review length, exclamation and uppercase ratio, unique word ratio.</li>
+                <li>Rating, verified-purchase flag, review bursts and helpful-vote count.</li>
+                <li>Classifiers targeting 95&ndash;97% accuracy.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="chips"><span class="chip t">Python</span><span class="chip y">Flask</span><span class="chip p">Machine Learning</span><span class="chip">NLP</span><span class="chip">TF-IDF</span><span class="chip">Browser Extension</span><span class="chip">JavaScript</span></div>
+          <div><a class="btn" href="https://github.com/nj23085/trust-score" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">&nearr;</span></a></div>
+        </article>
+
+        <article class="project" style="--c: var(--yellow)">
+          <div class="p-top"><span class="status">Machine learning</span><span class="when">Feb 2026 &ndash; present</span></div>
+          <h2>Fake Review Detection</h2>
+          <p class="lead">A machine learning system that separates genuine product reviews from spam, built as the foundation for Trust-Score.</p>
+          <div class="p-grid">
+            <div>
+              <h3>Approach</h3>
+              <ul class="ticks">
+                <li>Text preprocessing and cleaning with NLP techniques.</li>
+                <li>TF-IDF and CountVectorizer for feature extraction.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Models and evaluation</h3>
+              <ul class="ticks">
+                <li>Logistic Regression and Naive Bayes classifiers for spam detection.</li>
+                <li>Performance compared on accuracy and precision.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="chips"><span class="chip t">Python</span><span class="chip y">FlaskAPI</span><span class="chip p">Machine Learning</span><span class="chip">NLP</span><span class="chip">scikit-learn</span></div>
+          <div><a class="btn ghost" href="https://github.com/nj23085/mini-project" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">&nearr;</span></a></div>
+        </article>
+
+        <article class="project" style="--c: var(--orange)">
+          <div class="p-top"><span class="status">RAG platform</span><span class="when">Full-stack</span></div>
+          <h2>AdaptiRAG</h2>
+          <p class="lead">An adaptive hybrid graph-vector RAG platform that routes each question to the retrieval strategy most likely to answer it well, and cites its sources.</p>
+          <div class="flow" aria-label="Pipeline"><span class="step">Question</span><i>&rarr;</i><span class="step">Adaptive router</span><i>&rarr;</i><span class="step">Vector search + knowledge graph</span><i>&rarr;</i><span class="step">Cited answer</span></div>
+          <div class="p-grid">
+            <div>
+              <h3>Retrieval</h3>
+              <ul class="ticks">
+                <li>FAISS vector search for semantic matches.</li>
+                <li>Knowledge graph with Louvain community detection.</li>
+                <li>Adaptive router chooses the path per query.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Platform</h3>
+              <ul class="ticks">
+                <li>FastAPI backend in Python.</li>
+                <li>React and TypeScript frontend.</li>
+                <li>Answers returned with citations.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="chips"><span class="chip t">Python</span><span class="chip o">FastAPI</span><span class="chip y">React</span><span class="chip">TypeScript</span><span class="chip">FAISS</span><span class="chip">GraphRAG</span></div>
+        </article>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="view" data-view="skills" hidden>
+    <div class="page-head" style="--c: var(--pink)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>Skills</span></div><h1>Skills</h1><p>The languages, concepts and tools behind my projects.</p><span class="pin">Toolbox</span></div></div>
+    <div class="body">
+      <div class="skill-grid">
+        <div class="skill-card" style="--c: var(--teal)">
+          <h2>Languages</h2>
+          <div class="chips"><span class="chip t">Python</span><span class="chip">C++</span><span class="chip">C</span></div>
+          <p>Python is my primary language for machine learning and backend work.</p>
+        </div>
+        <div class="skill-card" style="--c: var(--yellow)">
+          <h2>Core concepts</h2>
+          <div class="chips"><span class="chip y">Machine learning</span><span class="chip">Design &amp; analysis of algorithms</span><span class="chip">Object-oriented programming</span></div>
+          <p>Foundations in algorithms, data structures and object-oriented design.</p>
+        </div>
+        <div class="skill-card" style="--c: var(--pink)">
+          <h2>Used in projects</h2>
+          <div class="chips"><span class="chip p">NLP</span><span class="chip">TF-IDF</span><span class="chip">Flask</span><span class="chip">FastAPI</span><span class="chip">React</span><span class="chip">FAISS</span><span class="chip">Git &amp; GitHub</span></div>
+          <p>Tools I have used to build Trust-Score and AdaptiRAG.</p>
+        </div>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="view" data-view="experience" hidden>
+    <div class="page-head" style="--c: var(--orange)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>Experience</span></div><h1>Experience</h1><p>Structured, mentor-guided work in applied AI and machine learning.</p><span class="pin">Grade O</span></div></div>
+    <div class="body">
+      <div>
+        <div class="entry" style="--c: var(--orange)">
+          <div class="date"><b>Jun &ndash; Aug 2026</b><span>8 weeks &middot; Virtual</span></div>
+          <div class="main">
+            <h2>AI-ML Virtual Internship</h2>
+            <p class="org">AICTE EduSkills &middot; National Internship Portal &middot; supported by Google for Developers under the India Edu Program</p>
+            <ul class="ticks" style="--c: var(--orange)">
+              <li>Completed the eight-week internship in artificial intelligence and machine learning.</li>
+              <li>Graded Outstanding (O) on completion.</li>
+              <li>Built practical understanding of AI/ML workflows, tools and industry practices through mentor-guided coursework.</li>
+            </ul>
+            <span class="cert">Certificate ID: 4beaa250f881018b5626</span>
+          </div>
+        </div>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="view" data-view="education" hidden>
+    <div class="page-head" style="--c: var(--green)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>Education</span></div><h1>Education</h1><p>Academic background and the coursework that supports my work in AI and software.</p><span class="pin">B.Tech '27</span></div></div>
+    <div class="body">
+      <div>
+        <div class="entry" style="--c: var(--green)">
+          <div class="date"><b>2023 &ndash; 2027</b><span>Indore, MP</span></div>
+          <div class="main">
+            <h2>B.Tech in Computer Science</h2>
+            <p class="org">Medicaps University</p>
+            <p class="score">7.76<small> / 10 cumulative GPA, through 6th semester</small></p>
+          </div>
+        </div>
+        <div class="entry" style="--c: var(--yellow)">
+          <div class="date"><b>2021 &ndash; 2023</b><span>Banda, MP</span></div>
+          <div class="main">
+            <h2>Higher Secondary, CBSE</h2>
+            <p class="org">St. Joseph Higher Secondary School &middot; Class XII, Class X: 82%</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="label">Relevant coursework</div>
+        <div class="chips">
+          <span class="chip g">Operating Systems &amp; Networks</span><span class="chip t">Object-Oriented Programming</span><span class="chip y">Design &amp; Analysis of Algorithms</span><span class="chip p">Data Structures &amp; Algorithms</span><span class="chip o">Database Management Systems</span><span class="chip">Computer Networks</span>
+        </div>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="view" data-view="contact" hidden>
+    <div class="page-head" style="--c: var(--teal)"><div class="band"><div class="crumbs"><a href="#home" data-go="home">Home</a><span>/</span><span>Contact</span></div><h1>Contact</h1><p>The best way to reach me is by email.</p><span class="pin">Say hi</span></div></div>
+    <div class="body">
+      <div class="contact-grid">
+        <div class="c-card" style="--c: var(--yellow)">
+          <h2>Email</h2>
+          <span class="val" id="email-addr">nayanjain23085@gmail.com</span>
+          <div class="copy-row">
+            <button class="btn ghost" id="copy-email" type="button">Copy address</button>
+            <span class="copy-msg" id="copy-msg" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="c-card" style="--c: var(--teal)">
+          <h2>LinkedIn</h2>
+          <a class="val" href="https://www.linkedin.com/in/nayanjainnj" target="_blank" rel="noopener">linkedin.com/in/nayanjainnj</a>
+        </div>
+        <div class="c-card" style="--c: var(--pink)">
+          <h2>GitHub</h2>
+          <a class="val" href="https://github.com/nj23085" target="_blank" rel="noopener">github.com/nj23085</a>
+        </div>
+      </div>
+      <div class="cta-band">
+        <h2>Open to AI / ML internships</h2>
+        <p>If you have a role, a project or a question about my work, send me a message and I'll get back to you.</p>
+      </div>
+      <div class="rail" data-rail></div>
+    </div>
+  </section>
+
+  <div class="foot"><span>&copy; 2026 Nayan Jain</span><span>Indore, India</span></div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

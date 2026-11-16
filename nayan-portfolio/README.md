@@ -1,41 +1,141 @@
-# Nayan Jain - Portfolio
+# Nayan Jain | Personal Portfolio
 
-A multi-section portfolio (Home, Projects, About, Skills, Experience, Education, Contact).
-Plain HTML, CSS and JavaScript. No build step and no installs.
+A personal developer portfolio showcasing my background, technical skills, projects, experience, and education, with a focus on Artificial Intelligence and Machine Learning.
 
-## Quickest way: run the Python launcher
+## 🌐 About the Portfolio
 
-1. Open the folder in VS Code, then open the terminal (Ctrl+`).
-2. Run `python run.py` (on Mac/Linux: `python3 run.py`).
-3. It prints a link like http://127.0.0.1:8000 and opens it in your browser. Press Ctrl+C to stop.
+This portfolio is designed to present my technical journey, highlight my projects, and provide an overview of my academic background and professional interests.
 
-Needs Python 3 only. No packages to install.
+It features a modern dark-themed interface with bold typography, interactive navigation, colorful elements, and a responsive layout.
 
-## Or run it with Live Server in VS Code
+## ✨ Features
 
-1. Unzip the folder and open it in VS Code (File > Open Folder > `nayan-portfolio`).
-2. Open the Extensions panel (Ctrl+Shift+X), search for **Live Server** (by Ritwick Dey) and install it.
-3. Right-click `index.html` and choose **Open with Live Server**.
-   The site opens at http://127.0.0.1:5500 and reloads when you save a file.
+- **Home:** Introduction and interactive portfolio landing page.
+- **About:** Background, interests, and career objectives.
+- **Projects:** Showcase of AI/ML and software development projects.
+- **Skills:** Programming languages, technical concepts, and development tools.
+- **Experience:** AI/ML internship details and achievements.
+- **Education:** Academic qualifications and relevant coursework.
+- **Contact:** Email, GitHub, and LinkedIn information.
+- **Interactive Navigation:** JavaScript-powered section navigation with URL hash support.
+- **Email Copy:** Functionality to copy the email address.
+- **Responsive Design:** Layout adapts to different screen sizes.
+- **Reduced Motion Support:** Respects users' reduced-motion preferences.
 
-No extension? Just double-click `index.html` to open it in your browser.
-You need an internet connection the first time so the Google Fonts load.
+## 🛠️ Technologies Used
 
-## Project structure
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure and content |
+| CSS3 | Styling, layouts, animations, and responsiveness |
+| JavaScript | Navigation, interactions, and dynamic elements |
+| Python | Local development server |
+| Google Fonts | Custom typography |
 
-    run.py          starts a local server and prints the link
-    index.html      all pages (each section is a <section class="view" data-view="...">)
-    css/style.css   colors, fonts and layout (colors are CSS variables at the top)
-    js/main.js      page switching, the "Keep exploring" stickers, copy-email button
+### Fonts Used
+- Anton
+- Archivo Black
+- Hanken Grotesk
 
-## Things to edit
+## 📂 Project Structure
 
-- Email, LinkedIn, GitHub: search `index.html` for `nayanjain23085`, `nayanjainnj`, `nj23085`.
-- Add a GitHub link to AdaptiRAG: in the Projects section, copy the "View on GitHub" button from another project.
-- Add your photo: put it in an `images/` folder and add an `<img>` in the About section.
-- Change colors: edit the variables at the top of `css/style.css` (`--teal`, `--yellow`, `--pink`, ...).
+```text
+portfolio/
+│
+├── index.html
+├── run.py
+│
+├── css/
+│   └── style.css
+│
+└── js/
+    └── main.js
+```
 
-## Put it online (free)
+## 🚀 Getting Started
 
-- **GitHub Pages:** push the folder to a repo, then Settings > Pages > deploy from the `main` branch.
-- **Netlify or Vercel:** drag and drop the folder onto their dashboard.
+### Prerequisites
+
+- Python 3.x
+- A modern web browser
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+3. Make sure the files are arranged according to the project structure above.
+
+4. Run the Python server:
+
+```bash
+python run.py
+```
+
+Alternatively:
+
+```bash
+python3 run.py
+```
+
+5. The server will automatically open the portfolio in your default browser.
+
+The default local address is:
+
+```text
+http://127.0.0.1:8000
+```
+
+If port 8000 is already occupied, the script automatically tries subsequent ports.
+
+To stop the server, press `Ctrl + C` in the terminal.
+
+## 💼 Featured Projects
+
+### 1. Trust-Score
+An AI-powered system designed to detect fake and deceptive product reviews across Amazon, Flipkart, and Myntra.
+
+**Technologies:** Python, Flask, Machine Learning, NLP, TF-IDF, JavaScript.
+
+[GitHub Repository](https://github.com/nj23085/trust-score)
+
+### 2. Fake Review Detection
+A machine learning project that classifies product reviews as genuine or spam using text preprocessing, feature extraction, and classification algorithms.
+
+**Technologies:** Python, NLP, TF-IDF, CountVectorizer, Scikit-learn.
+
+[GitHub Repository](https://github.com/nj23085/mini-project)
+
+### 3. AdaptiRAG
+An adaptive hybrid graph-vector Retrieval-Augmented Generation (RAG) platform that selects appropriate retrieval strategies to generate relevant answers with citations.
+
+**Technologies:** Python, FastAPI, React, TypeScript, FAISS, GraphRAG.
+
+## 👨‍💻 About Me
+
+I'm Nayan Jain, a B.Tech Computer Science student at Medicaps University, Indore.
+
+My interests include Artificial Intelligence, Machine Learning, Natural Language Processing, and retrieval systems.
+
+I'm passionate about building practical technology solutions and continuously improving my development and problem-solving skills.
+
+## 📬 Connect With Me
+
+- **Email:** nayanjain23085@gmail.com
+- **LinkedIn:** [linkedin.com/in/nayanjainnj](https://www.linkedin.com/in/nayanjainnj)
+- **GitHub:** [github.com/nj23085](https://github.com/nj23085)
+
+---
+
+⭐ If you find this portfolio interesting, feel free to explore my projects and repositories.
+
+© 2026 Nayan Jain. All Rights Reserved.
